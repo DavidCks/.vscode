@@ -134,4 +134,15 @@
         ],
         "description": "Yew struct component with a message enum"
     },
+    "ysprops": {
+        "prefix": "ysprops",
+        "body": [
+        "#[derive(Properties, PartialEq)]",
+        "pub struct Props {",
+        "    #[prop_or_default]",
+        "    pub prop: bool,",
+        "}"
+        ],
+        "description": "Yew props struct"
+    },
 }
